@@ -1,10 +1,8 @@
 <?php include "include/header.php" ?>
 
-
-
-
 <!-- PROFILE CONTENT -->
-      <div class="container">
+        <div class="container">
+        <div class="page">
         <div id="edu" class="content">
 
         <h2> Education </h2>
@@ -51,9 +49,8 @@
               </div></li>
           </ul>
 
+            </div>
+          </div>
         </div>
-
-        </div>
-      </section>
 
       <?php include "include/footer.php" ?>

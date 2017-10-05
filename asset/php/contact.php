@@ -1,14 +1,9 @@
-contact.php
-<?php
-<div class="contact_details_content">
+<?php include "include/header.php" ?>
+
+<div class="container">
   <h2>Contact details</h2>
-  <p class="purple">Phone:</p>
-  <p>+32 499 40 75 49</p>
-  <p class="purple">Email:</p>
-  <p>elisa.della.faille@gmail.com</p>
-  <p class="purple">Adress:</p>
-  <p>beukenstraat, 129</p>
-  <p>1630 Linkebeek</p>
+    <p> Phone: 0499/40.75.49 </p>
+    <p> Adress: Beukenstraat 129, 1630 Linkebeek </p>
 </div>
 
 <a href="mailto:elisa.della.faille@gmail.com" class="send_message_button">
@@ -25,4 +20,4 @@ contact.php
   </ul>
 </div>
 
- ?>
+<?php include "include/footer.php" ?>

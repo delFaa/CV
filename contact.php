@@ -1,34 +1,61 @@
-<?php include "include/header.php" ?>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+  </head>
 
-<div class="contact_details_content">
-  <h2>Contact details</h2>
-  <p>phone:
-  +32 499 40 75 49</p>
-  <p> e-mail
-  <div class="send_messag_button">
+  <body>
+      <header>
+        <div id="contacthead">
+          <a href="index.php">
+          Go back
+          </a>
+          <h1>Contact me</h1>
+        </div>
+      </header>
 
-  <a href="mailto:elisa.della.faille@gmail.com" class="send_message_button">
-    send me a message
-  </a></div> </p>
-  Adress:
-  beukenstraat, 129
-  1630 Linkebeek</p>
-</div>
+      <body>
 
-<div class="get_social">
-  <p>Social</p>
-  <ul class="social_icons">
-    <li>
-      <a class="facebook" href="https://www.facebook.com/eli.df">
-          <img src="asset/images/facebook-6-16.png" alt="facebook link">
-      </a>
-    </li>
-    <li>
-      <a class="linkedin" href="https://www.linkedin.com/in/elisa-della-faille-20682896">
-        <img src="asset/images/linkedin-3-16.gif" alt="linkedin link">
-      </a>
-    </li>
-  </ul>
-</div>
+        <div class="container">
+          <h2>Contact details</h2>
+          <p>phone:
+          +32 499 40 75 49</p>
 
-<?php include "include/footer.php" ?>
+          <p>Adress:
+          beukenstraat, 129
+          1630 Linkebeek</p>
+
+          <h2>Leave a message</h2>
+          <div class="form">
+            <form action="/action_page.php">
+              Your e-mail:<br>
+              <input type="email" name="email"><br>
+              Your Name<br>
+              <input type="text" name="yourname"><br>
+              Your message<br>
+              <input type="text" name="yourmessage">
+              <input type="submit">
+            </form>
+          </div>
+
+          <p></p>
+          <ul class="social_icons">
+            <li>
+              Let's get social
+            </li>
+            <li>
+              <a class="facebook" href="https://www.facebook.com/eli.df">
+                  <img src="asset/images/facebook-6-16.png" alt="facebook link">
+              </a>
+            </li>
+            <li>
+              <a class="linkedin" href="https://www.linkedin.com/in/elisa-della-faille-20682896">
+                <img src="asset/images/linkedin-3-16.gif" alt="linkedin link">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <?php include "include/footer.php" ?>
