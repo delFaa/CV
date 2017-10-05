@@ -1,0 +1,112 @@
+
+header {
+  background-color: rgba(223, 170, 25, 0.75);
+  color: rgb(223, 117,101);
+  font-family: sans-serif;
+  font-size: 30px;
+  height: inherit;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/** body **/
+body {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/intersections.png) repeat;
+  font-family: sans-serif; Arial; colibri;
+  color: rgb(66, 117,101);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* navigation bar*/
+nav {
+  display: inline;
+}
+nav ul{
+    background-color: #006175;
+    overflow: hidden;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    color: rgb(223, 170, 25);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid rgb(223, 170, 25);
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #A2E1F4;
+    color: rgb(69, 0, 32);
+    list-style-type: none;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/** content**/
+
+a{
+  display: border-left: ;
+  padding: 8px;
+  background: ;
+}
+h1{
+  color: rgb(66, 117,101);
+}
+.container{
+  margin-bottom: 30px;
+}
+
+/** CONTACT **/
+
+.get_social li {
+  list-style-type: none;
+  display: inline;
+}
+
+.send_messag_button {
+  background-color: rgb(66,117,101);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.send_messag_button a {
+  text-decoration: none;
+  color: white;
+  font: bold 15px Arial;
+}
+.send_messag_button a:hover{
+
+}
+
+/** footer **/
+footer {
+
+  font-size: 12px;
+  list-style-type: none;
+  background-color: rgba(69, 40, 55, 0.75);
+  color: rgba(223, 170, 25, 0.5);
+  display: flex;
+  justify-content: space-around;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  align-items: flex-end;
+}
