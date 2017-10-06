@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  
 $(".progress div").each(function () {
     var display = $(this),
         currentValue = parseInt(display.text()),
