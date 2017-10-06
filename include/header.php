@@ -11,15 +11,18 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
   </head>
 
   <body>
       <header>
         <div class="container">
-
-          <h1>Elisa della Faille</h1>
-          <p> Web Developper to be</p><br>
+            <div class="header">
+              <h1>Elisa della Faille</h1>
+              <p> Web Developper to be</p><br>
+            </div>
         </div>
       </header>
 

@@ -15,8 +15,13 @@
       </header>
 
       <body>
+        <div class="container">
+        <div class="row">
+        <div class="col-sm-6" style="align-right">
+          <img src="./asset/images/profilepic.jpg" class="img-thumbnail" alt="profile picture">
+        </div>
+        <div class="col-sm-6">
 
-        <div class="container text-center">
           <br>
           <div id="goback">
             <a href="index.php">
@@ -61,5 +66,6 @@
             </li>
           </ul>
         </div>
-
+        </div>
+      </div>
         <?php include "include/footer.php" ?>

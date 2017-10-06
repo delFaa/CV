@@ -30,22 +30,22 @@
           <ul id="langues">
             <li>French
               <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-danger" data-values="100">0</div>
               </div>
             </li>
             <li>Dutch
               <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-danger" data-values="100">0</div>
               </div>
             </li>
             <li>English
               <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-danger" data-values="90">0</div>
               </div>
             </li>
             <li>German
               <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar progress-bar-danger" data-values="75">0</div>
               </div></li>
           </ul>
 

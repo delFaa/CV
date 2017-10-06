@@ -27,7 +27,8 @@ body {
 }
 
 h2 {
-
+ font-size: 40px;
+ font-weight: bold;
 }
 
 .page {
@@ -45,7 +46,6 @@ a{
 h1{
   color: rgb(66, 117,101);
 }
-
 
 /** CONTACT **/
 #contacthead {
