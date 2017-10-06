@@ -6,7 +6,6 @@ header {
   font-size: 30px;
   height: auto;
   width: 100%;
-  position: ;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -49,13 +48,26 @@ h1{
 
 
 /** CONTACT **/
-#contecthead{
+#contacthead {
   text-decoration: none;
-  color: yellow;
   font-family: sans-serif;
   color: rgb(223, 117,101);
 }
 
+
+a{
+  color: rgb(223, 117,100);
+  transition: 1s;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(223, 170, 25);
+}
+
+#goback{
+  justify-content: flex-end;
+}
 .social_icons li {
   list-style-type: none;
   display: inline;

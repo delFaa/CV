@@ -9,17 +9,20 @@
   <body>
       <header>
         <div id="contacthead">
-          <a href="index.php">
-          Go back
-          </a>
-          <h1>Contact me</h1>
+            <h1>Contact me</h1>
+
         </div>
       </header>
 
       <body>
 
-        <div class="container">
-          <h2>Contact details</h2>
+        <div class="container text-center">
+          <br>
+          <div id="goback">
+            <a href="index.php">
+            Go back
+            </a>
+          </div>
           <p>phone:
           +32 499 40 75 49</p>
 
@@ -35,7 +38,8 @@
               Your Name<br>
               <input type="text" name="yourname"><br>
               Your message<br>
-              <input type="text" name="yourmessage">
+              <textarea name="message" rows="8" cols="30">
+              </textarea><br>
               <input type="submit">
             </form>
           </div>
