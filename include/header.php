@@ -27,7 +27,7 @@
       </header>
 
 
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-dark " style="background-color: rgb(69, 40, 55) ">
         <div class="container">
         <div class="container-fluid">
           <div class="navbar-header">

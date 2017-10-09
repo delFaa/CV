@@ -1,7 +1,9 @@
 <?php include "include/header.php" ?>
 
+<div class="container">
+Thank you for your message,  <?php echo $_POST["yourname"]; ?><br>
+You will be recontacted in the shortest delays.
+</div>
 
-Welcome <?php echo $_POST["yourname"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
 
 <?php include "include/footer.php" ?>

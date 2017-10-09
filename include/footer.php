@@ -1,7 +1,7 @@
-<footer>
-    <p> beukenstraat 129, 1630 Linkebeek</p>
-    <p> 0499/40.75.49</p>
-</footer>
+  <footer>
+      <p> beukenstraat 129, 1630 Linkebeek</p>
+      <p> 0499/40.75.49</p>
+  </footer>
 
 
 <!-- scripts -->
