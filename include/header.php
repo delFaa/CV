@@ -36,7 +36,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">My Curriculum</a>
+            <a class="navbar-brand" href="./asset/pdf/CV_EN_EDF.pdf">My Curriculum</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">

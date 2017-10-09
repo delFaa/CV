@@ -13,9 +13,6 @@ header {
   text-decoration: none;
 }
 
-h1 {
-  margin-top: 10px;
-}
 
 /** body **/
 body {
@@ -24,6 +21,7 @@ body {
   color: rgb(66, 117,101);
   font-size: 30px;
   margin-bottom: 30px;
+  background-color: red;
 }
 
 h2 {

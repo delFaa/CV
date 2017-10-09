@@ -37,7 +37,7 @@
 
           <h2>Leave a message</h2>
           <div class="form">
-            <form action="/action_page.php">
+            <form action="./action_page.php" method="post">
               Your e-mail:<br>
               <input type="email" name="email"><br>
               Your Name<br>
