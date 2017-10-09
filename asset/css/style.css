@@ -12,6 +12,9 @@ header {
   align-items: flex-end;
   text-decoration: none;
 }
+.navbar.navbar-collapse{
+  background-color:grey;
+}
 
 
 /** body **/
@@ -21,7 +24,6 @@ body {
   color: rgb(66, 117,101);
   font-size: 30px;
   margin-bottom: 30px;
-  background-color: red;
 }
 
 h2 {

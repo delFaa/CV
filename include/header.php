@@ -25,9 +25,9 @@
             </div>
         </div>
       </header>
+<!--style="background-color: rgb(69, 40, 55)"!-->
 
-
-      <nav class="navbar navbar-dark " style="background-color: rgb(69, 40, 55) ">
+      <nav class="navbar navbar-default">
         <div class="container">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -47,8 +47,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="contact.php"><span class="glyphicon glyphicon-log-in">
-              </span> Contact me</a></li>
+              <li><a href="contact.php"> Contact me</a></li>
             </ul>
           </div>
 
