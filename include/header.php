@@ -12,6 +12,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Mukta" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
     <link rel="stylesheet" href="css/animate.css">
   </head>
@@ -27,7 +28,7 @@
       </header>
 <!--style="background-color: rgb(69, 40, 55)"!-->
 
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-">
         <div class="container">
         <div class="container-fluid">
           <div class="navbar-header">

@@ -18,13 +18,14 @@
         <div class="container">
         <div class="row">
         <div class="col-sm-6" style="align-right">
-          <img src="./asset/images/profilepic.jpg" class="img-thumbnail" alt="profile picture">
+          <figure><img src="./asset/images/profilepic.jpg" class="img-thumbnail" alt="profile picture"></figure>
+          <figcaption>This is a picture of me</figcaption>
         </div>
         <div class="col-sm-6">
 
           <br>
           <div id="goback">
-            <a href="index.php">
+            <a href="index.php" title="This makes me sad but it's your right..">
             Go back
             </a>
           </div>
@@ -32,7 +33,7 @@
           +32 499 40 75 49</p>
 
           <p>Adress:
-          beukenstraat, 129
+          Beukenstraat, 129
           1630 Linkebeek</p>
 
           <h2>Leave a message</h2>

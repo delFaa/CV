@@ -1,5 +1,5 @@
 
-header {
+header{
   background-color: rgba(223, 170, 25, 0.75);
   color: rgb(223, 117,101);
   font-family: sans-serif;
@@ -12,31 +12,20 @@ header {
   align-items: flex-end;
   text-decoration: none;
 }
-.navbar.navbar-collapse{
-  background-color:grey;
+
+header p{
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1px;
+    line-height: 2px;
 }
 
-
-/** body **/
 body {
   background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/intersections.png) repeat;
   font-family: sans-serif; Arial; colibri;
   color: rgb(66, 117,101);
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
-
-h2 {
- font-size: 40px;
- font-weight: bold;
-}
-
-.page {
-  padding-bottom: 20px;
-}
-
-
-/** content**/
 
 a{
   display: border-left: ;
@@ -45,7 +34,21 @@ a{
 }
 h1{
   color: rgb(66, 117,101);
+  font-family: 'Mukta', sans-serif;
+  font-size: 40px;
 }
+h2 {
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+}
+p li{
+  font-size:
+}
+.page {
+  padding-bottom: 40px;
+}
+
+
 
 /** CONTACT **/
 #contacthead {
@@ -53,8 +56,10 @@ h1{
   font-family: sans-serif;
   color: rgb(223, 117,101);
 }
-
-
+figcaption{
+  text-align: center;
+  font-style: italic;
+}
 a{
   color: rgb(223, 117,100);
   transition: 1s;
@@ -78,12 +83,12 @@ a:hover{
 
 /** footer **/
 footer {
-  font-size: 15px;
+  font-size: 14px;
   list-style-type: none;
   background-color: rgb(69, 40, 55);
   color: rgb(223, 170, 25);
   display: flex;
-  height: 30px;
+  height: 40px;
   justify-content: space-around;
   position: fixed;
   bottom: 0px;
