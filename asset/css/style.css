@@ -10,6 +10,7 @@ header {
   justify-content: space-around;
   align-items: flex-end;
   text-decoration: none;
+  border
 }
 
 header p{
@@ -86,7 +87,7 @@ figcaption{
 }
 a{
   color: rgb(223, 117,100);
-  transition: 1s;
+  transition: 500ms;
 }
 
 a:hover{
