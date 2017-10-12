@@ -12,9 +12,9 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Mukta" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Chathura|Encode+Sans+Semi+Condensed" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="./asset/js.anim.js">
   </head>
 
   <body>
@@ -26,11 +26,9 @@
             </div>
         </div>
       </header>
-<!--style="background-color: rgb(69, 40, 55)"!-->
 
-      <nav class="navbar navbar-">
+      <nav class="navbar navbar-toggleable-md navbar-dark">
         <div class="container">
-        <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
@@ -44,14 +42,12 @@
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="edu.php">Education</a></li>
               <li><a href="exp.php">Experiences</a></li>
-              <li><a href="competences.php">Compétences</a></li>
+              <li><a href="competences.php">skills</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
               <li><a href="contact.php"> Contact me</a></li>
             </ul>
           </div>
-
-        </div>
         </div>
       </nav>
