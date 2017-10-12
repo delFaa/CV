@@ -1,4 +1,3 @@
-
 header {
   background-color: rgba(223, 170, 25, 0.75);
   color: rgb(223, 117,101);
@@ -12,18 +11,31 @@ header {
   align-items: flex-end;
   text-decoration: none;
 }
-.navbar.navbar-collapse{
-  background-color:grey;
-}
 
+header p{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 
 /** body **/
 body {
   background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/intersections.png) repeat;
-  font-family: sans-serif; Arial; colibri;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
   color: rgb(66, 117,101);
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+a{
+  display: border-left: ;
+  padding: 8px;
+
+}
+h1{
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 50px;
+  color: rgb(66, 117,101);
 }
 
 h2 {
@@ -31,20 +43,33 @@ h2 {
  font-weight: bold;
 }
 
+p{
+
+}
+
+p li{
+  font size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+
+}
 .page {
   padding-bottom: 20px;
 }
 
 
-/** content**/
-
-a{
-  display: border-left: ;
-  padding: 8px;
-  background: ;
+/** Navbar toggle button **/
+.navbar{
+  background-color: rgb(69, 40, 55);
 }
-h1{
-  color: rgb(66, 117,101);
+.navbar-toggle{
+  border-color: rgb(223, 117,101);
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: rgb(223, 117,101);
+  }
+.navbar p{
+  font-family: 'Chathura', sans-serif;
 }
 
 /** CONTACT **/
@@ -52,6 +77,11 @@ h1{
   text-decoration: none;
   font-family: sans-serif;
   color: rgb(223, 117,101);
+}
+
+img{
+   justify-content: center;
+   flex-direction: column;
 }
 
 
@@ -78,15 +108,21 @@ a:hover{
 
 /** footer **/
 footer {
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: 'Chathura', sans-serif;
   list-style-type: none;
   background-color: rgb(69, 40, 55);
-  color: rgb(223, 170, 25);
+  color: rgb(223, 117,101);
   display: flex;
-  height: 30px;
+  height: 40px;
   justify-content: space-around;
   position: fixed;
   bottom: 0px;
   width: 100%;
   align-items: flex-end;
+}
+footer p{
+
 }
